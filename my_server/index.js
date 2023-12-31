@@ -59,10 +59,6 @@ app.use("/regisEmail", regisEmailRouters);
 app.use("/feedback", feedbackRouters);
 app.use("/blogs", blogRouters);
 
-app.get("/healthz", (req, res) => {
-  res.sendStatus(200);
-});
-
 var server = app.listen(port,"127.0.0.1", () => {
     var host = server.address().address
     var port = server.address().port

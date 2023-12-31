@@ -54,4 +54,8 @@ router.get("/check-admin", (req, res) => {
   }
 });
 
+router.get("/healthz", (req, res) => {
+  res.sendStatus(200);
+});
+
 module.exports = router;
