@@ -8,6 +8,8 @@
 
 # Node
 /node_modules
+/my_client/node_modules
+/my_server/node_modules
 npm-debug.log
 yarn-error.log
 
@@ -29,6 +31,7 @@ yarn-error.log
 .history/*
 
 # Miscellaneous
+/my_client/.angular
 /.angular/cache
 .sass-cache/
 /connect.lock
@@ -41,5 +44,5 @@ testem.log
 .DS_Store
 Thumbs.db
 
-.env
+
 package-lock.json

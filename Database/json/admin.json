@@ -1,0 +1,8 @@
+[{
+  "_id": {
+    "$oid": "642bd739af0a09fa86e15584"
+  },
+  "email": "quynhluunhu@gmail.com",
+  "pass": "b26149b55cf5bfbc6e3aeeb550ed5f42a9407c815b3e6e3c6dbc5c1c812bd6cca15847b4492ae5d7b85afef8d299c26f0731042e59f6e9a602e710caab2962e0",
+  "salt": "9688c8dba3e494689aef7ae23e1b67e6"
+}]
