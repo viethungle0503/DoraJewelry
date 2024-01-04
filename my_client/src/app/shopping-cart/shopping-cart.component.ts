@@ -192,3 +192,5 @@ export class ShoppingCartComponent implements AfterViewInit {
     return this.purchaseForm.controls['cashOnDelievery'];
   }
 }
+
+
