@@ -34,8 +34,12 @@ app.use(
   })
 );
 
-const morgan = require("morgan");
-app.use(morgan("combined"));
+var env = process.env.NODE_ENV || 'development';
+if (env !== 'production') {
+  const morgan = require('morgan');
+  app.use(morgan("combined"));
+  // app.use(morgan('dev', { stream: { write: message => logger.http(message) } }));
+}
 
 const cors = require("cors");
 app.use(cors());

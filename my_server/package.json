@@ -20,10 +20,10 @@
         "md5": "^2.3.0",
         "mongodb": "^4.6.0",
         "mongoose": "^6.3.3",
+        "morgan": "^1.10.0",
         "uuid": "^9.0.0"
     },
     "devDependencies": {
-        "morgan": "^1.10.0",
         "nodemon": "^2.0.22"
     }
 }
